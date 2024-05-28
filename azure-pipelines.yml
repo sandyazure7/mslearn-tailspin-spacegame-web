@@ -95,7 +95,7 @@ steps:
     command: 'build'
     arguments: '--no-restore --configuration Release'
     projects: '**/*.csproj'
-  workingDirectory: Tailspin.SpaceGame.Web/wwwroot
+    workingDirectory: Tailspin.SpaceGame.Web/wwwroot
 
 - task: DotNetCoreCLI@2
   displayName: 'Restore project dependencies'
